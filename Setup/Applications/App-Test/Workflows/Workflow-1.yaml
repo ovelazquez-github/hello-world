@@ -28,9 +28,9 @@ phases:
         outputVars: ''
         publishAsVar: false
         scriptString: |-
-          java -version
+          java --version
           hostname
-          ip addr
+          hostname -I
         scriptType: BASH
         sshKeyRef: null
         sweepingOutputName: null
