@@ -28,7 +28,7 @@ phases:
         outputVars: ''
         publishAsVar: false
         scriptString: |-
-          java --version
+          ps -fea | grep da
           hostname
           hostname -I
         scriptType: BASH
