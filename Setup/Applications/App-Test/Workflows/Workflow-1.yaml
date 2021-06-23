@@ -28,9 +28,9 @@ phases:
         outputVars: ''
         publishAsVar: false
         scriptString: |-
-          ps -fea | grep da
           hostname
           hostname -I
+          pwd
         scriptType: BASH
         sshKeyRef: null
         sweepingOutputName: null
