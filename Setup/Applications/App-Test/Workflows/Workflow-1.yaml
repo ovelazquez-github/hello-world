@@ -31,6 +31,9 @@ phases:
           hostname
           hostname -I
           pwd
+          cd /root/
+          java -version
+          pwd
         scriptType: BASH
         sshKeyRef: null
         sweepingOutputName: null
